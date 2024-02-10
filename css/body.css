@@ -1,0 +1,130 @@
+/*---- cards ----*/
+
+.container-cards {
+    background-color: #f5efef;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    margin-top: 0;
+}
+
+.title-body h1 {
+    color: #2bbdce;
+
+    /*margin-top: 20;
+    padding: 30px;
+     /*padding: 40px;*/
+    font-size: 2.2em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "open sans";
+    letter-spacing: 2px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px #000;
+    width: 390px;
+    margin-bottom: 15px;
+}
+/*
+.card picture img {
+    max-width: 100%;
+}
+*/
+img {
+    max-width: 100%;
+}
+
+.card-content {
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+}
+/*
+.card-content h1 {
+    font-weight: lighter;
+}
+*/
+
+
+.card-content h1 {
+    font-size: 1.6em;
+    margin-bottom: -5px;
+    font-weight: 500;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.card-content p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: 15px;
+    line-height: 1.7rem;
+
+}
+
+/*GALERIA DE FOTOS*/
+
+/*container caleria de fotos*/
+
+.container-dark {
+    background-color: #449ad3;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+}
+
+ /*titulo da galeria*/
+
+.title-gallery {
+    width: 100%;
+    font-size: 1.4em;
+
+}
+
+.title-gallery h1 {
+    color: #fff;
+    font-family: "open sans";
+    letter-spacing: 2px;
+    text-align: center;
+    /*font-size: 2.2em;*/
+}
+
+ /*seção da galeria*/
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*moldura da imagem*/
+
+.gallery .foto {
+
+    padding: 10px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 40px -14px #000;
+    width: 290px;
+
+    /*padding: 10px;
+    margin: 20%;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 0.25rem;*/
+}

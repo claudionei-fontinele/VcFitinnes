@@ -1,0 +1,90 @@
+/* container formulario contatos*/
+
+.container-contact {
+    background-color: #f5efef;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.title-body {
+    width: 100%;
+
+}
+
+.title-body h1 {
+    color: #2bbdce;
+    margin-top: 0;
+    font-size: 2.2em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "open Sans";
+    letter-spacing: 2px;
+}
+
+
+.formulario {
+    padding: 20px;
+    width: 45%;
+
+}
+
+.formulario .campo{
+    font-size: 1.2em;
+    color: #7b7979;
+    border: 1px #dee5ed solid;
+    border-radius: 8px;
+    padding: 0.6em;
+    margin-bottom: 15px;
+    width: 95%;
+}
+
+.formulario .btn-enviar {
+    width: 160px;
+    background-color: white;
+    color: #7b7979;
+    border: 1px #dee5ed solid;
+    border-radius: 8px;
+    padding: 0.5em 0em;
+    font-size: 1.5em;
+}
+
+.formulario .btn-enviar:hover {
+    background-color: #969ad8;
+    color: #fff;
+    border: 1px #dee5ed solid;
+}
+
+.formulario textarea {
+    resize: none;
+}
+
+/*  INFORMAÇÕES AO LADO DO FORMULÁRIO  */
+
+.info {
+    width: 50%;
+}
+
+.info p {
+    font-size: 1em;
+    color: #535050;
+}
+
+.info .last {
+    padding-bottom: 20px;
+}
+
+p i {
+    color: #7b7979;
+    padding-right: 10px;
+
+}
+
+.p-info {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
